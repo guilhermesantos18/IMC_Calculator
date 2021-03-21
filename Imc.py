@@ -11,15 +11,15 @@ print('Calculando...')
 sleep(1)
 if imc < 17:
     print(f'De acordo com o seu imc de {imc:.2f} você está, Abaixo do peso grave.')
-elif 17 >= imc < 18.50:
+elif 17 <= imc < 18.50:
     print(f'De acordo com o seu imc de {imc:.2f} você está, Abaixo do peso.')
-elif 18.50 >= imc < 25:
+elif 18.50 <= imc < 25:
     print(f'De acordo com o seu imc de {imc:.2f} você está com, Peso normal.')
-elif 25 >= imc < 30:
+elif 25 <= imc < 30:
     print(f'De acordo com o seu imc de {imc:.2f} você está com, Sobrepeso.')
-elif 30 >= imc < 35:
+elif 30 <= imc < 35:
     print(f'De acordo com o seu imc de {imc:.2f} você está com, Obesidade grau 1.')
-elif 35 >= imc < 40:
+elif 35 <= imc < 40:
     print(f'De acordo com o seu imc de {imc:.2f} você está com, Obesidade grau 2.') 
 else:
     print(f'De acordo com o seu imc de {imc:.2f} você está com, Obesidade grau 3 .')  
